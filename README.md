@@ -47,7 +47,6 @@ And for the **neural network**:
     macro avg       0.81      0.80      0.80      1267
     weighted avg    0.81      0.81      0.80      1267
 
-To my initial surprise, the logistic regression classifier seem to be outperforming the multilayer perceptron classifier (although just narrowly). But perhaps this makes sense since logistic regression is particularly suited for binary classification. The weighed avg for the f1-scores is just .01 higher for the logistic regression classifier. 
+To my initial surprise, the logistic regression classifier seem to be outperforming the multilayer perceptron classifier. Although just narrowly. The weighed avg for the f1-scores is just .01 higher for the logistic regression classifier. The f1-score can be described as the harmonic mean between precision and recall. FAKE for instance has a precision score of 0.86. This means that 86% of the articles that where predicted as being FAKE were actually fake. It also has a recall score of 0.73 which means that 73% of the actually fake articles had correct predictions.
 
-When I used the same type of models on image data with multible categories, the f1-scores were more than half as low. But these more simple classification models seem to work well on binary classification of text data. 
-
+Perhaps the similarity in performance makes sense since logistic regression is particularly suited for binary classification. When I used the same type of models on image data with multible categories, the f1-scores were more than half as low. But these more simple classification models seem to work well on binary classification of text data.
