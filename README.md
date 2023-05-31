@@ -1,4 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10405356&assignment_repo_type=AssignmentRepo)
 # Assignment 2 - Text classification benchmarks
 
 This repository contains code which will use ```scikit-learn``` to train binary classification models on a dataset of news articles labelled as either fake and real. The dataset can be found found on Kaggle via this [link](https://www.kaggle.com/datasets/jillanisofttech/fake-or-real-news)
